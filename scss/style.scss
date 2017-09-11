@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  margin-bottom: 100px;
+}
+header {
+  background-image: url("../images/header-background.jpg");
+  width: 1230px;
+  height: 600px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.title-anna {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  width: 141px;
+  height: 27px;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 28px;
+}
+
+.quite {
+  margin-top: 70px;
+  color: white;
+  text-align: center;
+  width: 645px;
+  height: 48px;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+}
+
+.white-line {
+  margin-top: 30px;
+  width: 76px;
+  height: 2px;
+  background-color: white;
+}
+
+.text-lorem {
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  width: 447px;
+  height: 39px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.marianna {
+  width: 93px;
+  height: 18px;
+  color: #838181;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.nav-class {
+  a {
+    width: 67px;
+    height: 10px;
+    color: #696969;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 31px;
+  }
+}
+
+.grey-line {
+  margin-top: 5px;
+  width: 1230px;
+  height: 1px;
+  background-color: #e3e3e3;
+}
+
+.about-me {
+  margin-top: 100px;
+  text-align: center;
+  width: 281px;
+  height: 19px;
+  color: #5a5957;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.redline {
+  margin-top: 15px;
+  width: 62px;
+  height: 3px;
+  background-color: #d07c7c;
+}
+
+.text-about-me {
+  margin-top: 15px;
+  text-align: center;
+  width: 757px;
+  height: 89px;
+  color: #848282;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.works {
+  margin-top: 100px;
+  text-align: center;
+  width: 281px;
+  height: 19px;
+  color: #5a5957;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 14px;
+}
