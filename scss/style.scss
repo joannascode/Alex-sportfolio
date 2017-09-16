@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 header {
   background-image: url("../images/header-background.jpg");
@@ -106,6 +106,7 @@ header {
   width: 62px;
   height: 3px;
   background-color: #d07c7c;
+  margin-bottom: 10px;
 }
 
 .text-about-me {
@@ -134,24 +135,33 @@ header {
 
 .forrest {
   background-image: url("../images/las.jpg");
-  border: 10px solid white;
+  border: 14px solid white;
   width: 705px;
   height: 375px;
+  &:hover {
+    opacity: 0.77;
+  }
 }
 
 .holland {
   background-image: url("../images/holland.jpg");
-  border: 10px solid white;
+  border: 14px solid white;
   width: 400px;
   height: 758px;
+  &:hover {
+    opacity: 0.77;
+  }
 }
 
 .people {
   background-image: url("../images/boyforrest.jpg");
   margin-top: -380px;
-  border: 15px solid white;
+  border: 14px solid white;
   width: 390px;
   height: 385px;
+  &:hover {
+    opacity: 0.77;
+  }
 }
 
 .wedding {
@@ -160,4 +170,140 @@ header {
   border: 15px solid white;
   width: 390px;
   height: 385px;
+  &:hover {
+    opacity: 0.77;
+  }
+}
+
+.newyork {
+  background-image: url("../images/newyork.jpg");
+  border: 17px solid white;
+  width: 765px;
+  height: 369px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+  &:hover {
+    opacity: 0.77;
+  }
+}
+
+.lion {
+  background-image: url("../images/lion.jpg");
+  border: 14px solid white;
+  width: 410px;
+  height: 369px;
+  margin-bottom: 50px;
+  &:hover {
+    opacity: 0.77;
+  }
+}
+
+.load-more {
+  width: 201px;
+  height: 50px;
+  background-color: #d07c7c;
+  color: white;
+  padding: 7px 22px 7px 22px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 11px;
+  margin-left: 500px;
+}
+
+.see-text {
+  color: #848282;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 430px;
+  margin-top: 100px;
+}
+
+.text-see {
+  p {
+    margin-top: 40px;
+    text-align: center;
+    color: #848282;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
+
+.author-text {
+  p {
+    margin-top: 10px;
+    text-align: center;
+    color: #a0a0a0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
+
+.video-click {
+  background-image: url("../images/photo.jpg");
+  width: 1230px;
+  height: 500px;
+  margin-top: 50px;
+  &:hover {
+    opacity: 0.87;
+  }
+    p {
+      margin-top: 250px;
+      width: 103px;
+      height: 10px;
+      color: black;
+      font-family: "Raleway", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-left: 500px;
+   }
+
+}
+
+footer {
+  margin-top: 100px;
+  width: 1230px;
+  height: 160px;
+  background-color: #ffffff;
+  p {
+    text-align: center;
+    color: black;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 15px;
+    margin-top: 100px;
+  }
+}
+
+.follow-me {
+  margin-top: 100px;
+  text-align: center;
+  width: 281px;
+  height: 19px;
+  color: #5a5957;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.contact {
+  margin-top: 100px;
+  text-align: center;
+  width: 281px;
+  height: 19px;
+  color: #5a5957;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 14px;
 }
